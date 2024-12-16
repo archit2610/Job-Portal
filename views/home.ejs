@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title><%= Title %></title>
+        <link rel="stylesheet" href="/css//styles.css">
+        <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="<%= path === '/' ? 'active' : '' %>" href="/">Home</a></li>
+                <li><a class="<%= path === '/job_application' ? 'active' : '' %>" href="/job_application">Apply for a Job</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="features">
+            <h2>Why Choose Us?</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <h3>Wide Range of Jobs</h3>
+                    <p>We offer job listings across various industries and skill levels.</p>
+                </div>
+                <div class="feature">
+                    <h3>Easy Application</h3>
+                    <p>Our application process is quick, simple, and hassle-free.</p>
+                </div>
+                <div class="feature">
+                    <h3>Trusted by Employers</h3>
+                    <p>We work with top employers to bring you the best opportunities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; This page was made by Chatgpt coz itni html  mujhe nahi aati. </p>
+    </footer>
+</body>
+</html>
